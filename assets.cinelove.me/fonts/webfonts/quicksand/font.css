@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('https://assets.cinelove.me/fonts/webfonts/quicksand/quicksand.woff2') format('woff2'), url('https://assets.cinelove.me/fonts/webfonts/quicksand/quicksand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

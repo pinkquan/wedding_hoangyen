@@ -1,0 +1,84 @@
+{
+  "_comment": "=== HERO & GALLERY CONFIGURATION ===",
+  "hero": {
+    "photo": "./media/photos/bc1c66f6e0bd3fe11b64152969851f11.jpg",
+    "photo_width": "100%",
+    "invite_label": "Thư mời tiệc cưới",
+    "event_name": "Lễ Thành Hôn",
+    "name_overlay_pos": {
+      "top": "0.65rem",
+      "right": "0.16rem"
+    },
+    "bottom_overlay_pos": {
+      "bottom": "0.04rem",
+      "right": "0.16rem"
+    }
+  },
+  "gallery": {
+    "photos": [
+      {
+        "src": "./media/photos/8e3e51658eeb1c3d4c3c4749d91e2766.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/b37e9f6beb5d3eb6f2d7f69c43ee6af0.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/be67747c5573583ce0edff566e6268cb.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/8cb2781ff2c482a7976575bf7e097f7c.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/350d745587e3d262cb0a29ddf6a52b2e.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/dee1ae147b19cbabda1e4b4b9ff963f8.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/91d2ee3f19e53ce7a9fb69fa8634860b.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/47a4aaec866ad1a35719c2d7afe06d54.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/e727505bd918a0d43ea467fb3bee0761.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/3d821599640280e48529728545400d03.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/18683cb99b33677e90a7f47dc9f50239.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/4314278c9aa6e17842013e81ac316c9b.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/9d3c15f109782bace88af5adb02f78a7.jpg",
+        "alt": ""
+      },
+      {
+        "src": "./media/photos/ec04a8efffa88ddbf3b5c94de8850a0e.jpg",
+        "alt": ""
+      }
+    ],
+    "sizes": {
+      "_note": "Đơn vị rem. 1rem = 100px ở màn 500px",
+      "main_img_width": "100%",
+      "thumb_size": "0.8rem",
+      "nav_btn_size": "0.4rem",
+      "nav_icon_size": "0.2rem"
+    }
+  }
+}
