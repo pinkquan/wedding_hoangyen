@@ -536,7 +536,7 @@
           "font_family": "var(--font-script)",
           "font_size": "0.18rem",
           "color": "#000000",
-          "text_align": "left"
+          "text_align": "right"
         },
         "effect": {
           "fade_in": true
@@ -554,7 +554,7 @@
           "font_family": "var(--font-script)",
           "font_size": "0.18rem",
           "color": "#fff",
-          "text_align": "right"
+          "text_align": "left"
         },
         "effect": {
           "fade_in": true
