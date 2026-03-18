@@ -151,14 +151,14 @@
             if (!name) { showToast('⚠️ Vui lòng nhập tên của bạn'); return; }
             if (!attendance) { showToast('⚠️ Vui lòng chọn tham dự hay không'); return; }
             if (!side) { showToast('⚠️ Vui lòng chọn bạn ở phía nào'); return; }
-            const gFormBase = 'https://docs.google.com/forms/d/e/1FAIpQLScvA8RgdsDZ6nuMolrkGabpP2ZuQkbrIHFawOQOmmNQGr88JQ/viewform';
+            const gFormBase = 'https://docs.google.com/forms/d/e/1FAIpQLScmqQBPwBf0s25CM2bkJkb1jL2nkeYrsx1Hc7zMWCKKC3lsGg/viewform';
             const gAttendance = attendance === 'yes' ? 'Có tham dự' : 'Không thể đến';
             const gSide = side === 'groom' ? 'Nhà Trai' : 'Nhà Gái';
             const params = new URLSearchParams({
                 'entry.559352220': name,
                 'entry.877086558': gAttendance,
                 'entry.924523986': guests || '',
-                'entry.186230675': gSide
+                'entry.1751303409': gSide
             });
             const GOOGLE_FORM_URL = `${gFormBase}?${params.toString()}`;
             try {
