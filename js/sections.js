@@ -151,7 +151,7 @@
             if (!name) { showToast('⚠️ Vui lòng nhập tên của bạn'); return; }
             if (!attendance) { showToast('⚠️ Vui lòng chọn tham dự hay không'); return; }
             if (!side) { showToast('⚠️ Vui lòng chọn bạn ở phía nào'); return; }
-            const gFormBase = 'https://docs.google.com/forms/d/e/1FAIpQLScmqQBPwBf0s25CM2bkJkb1jL2nkeYrsx1Hc7zMWCKKC3lsGg/viewform';
+            const gFormBase = 'https://forms.gle/Xgz7KZziQLVpzghCA';
             const gAttendance = attendance === 'yes' ? 'Có, tôi sẽ tới đó' : 'Rất tiếc, tôi không thể tham dự';
             const gSide = side === 'groom' ? 'Nhà trai' : 'Nhà gái';
             const params = new URLSearchParams({
