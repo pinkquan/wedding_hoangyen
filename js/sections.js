@@ -71,8 +71,8 @@
     function initCalendar() {
         const container = $('#calendar-days');
         if (!container) return;
-        const wDay = parseInt(W.CFG.wedding?.day || '20', 10);
-        const wMonth = parseInt(W.CFG.wedding?.month || '12', 10);
+        const wDay = parseInt(W.CFG.wedding?.day || '12', 10);
+        const wMonth = parseInt(W.CFG.wedding?.month || '4', 10);
         const wYear = parseInt(W.CFG.wedding?.year || '2026', 10);
         const year = wYear;
         const month = wMonth - 1;
@@ -95,8 +95,9 @@
                 .map((item) => parseInt(String(item), 10))
                 .filter((item) => Number.isInteger(item));
         };
-        const configuredPrimaryDays = toDayList(W.CFG.wedding?.calendar_marks?.primary_days);
-        const configuredSecondaryDays = toDayList(W.CFG.wedding?.calendar_marks?.secondary_days);
+        const cMarks = W.CFG.wedding?.calendar_marks || { primary_days: [12], secondary_days: [11] };
+        const configuredPrimaryDays = toDayList(cMarks.primary_days);
+        const configuredSecondaryDays = toDayList(cMarks.secondary_days);
         const fallbackPrimaryDays = Number.isInteger(wDay) ? [wDay] : [];
         const primaryDaySet = new Set((configuredPrimaryDays.length ? configuredPrimaryDays : fallbackPrimaryDays)
             .filter((day) => day >= 1 && day <= daysInMonth));

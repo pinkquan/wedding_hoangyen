@@ -2,7 +2,7 @@
     'use strict';
     const W = window.__WeddingApp = {};
     const CONFIG = {
-        weddingDate: new Date('2026-12-20T09:00:00+07:00'),
+        weddingDate: new Date('2026-04-12T09:00:00+07:00'),
         heartRainInterval: 350,
         heartRainMax: 40,
         blessingFetchInterval: 8000,
@@ -116,6 +116,7 @@
                 guestName: entry.guest_name || null,
                 invitationTitle: entry.invitation_title || null,
                 pronounForTitle: entry.pronoun_for_title || null,
+                phrase: entry.phrase || null,
                 pronouns: Array.isArray(entry.pronouns) ? entry.pronouns : null,
                 familyCompanionEnabled: entry.family_companion_enabled !== false,
                 customBodyEnabled: entry.custom_body_enabled === true,
@@ -152,6 +153,9 @@
         const pronounForTitle = typeof payload.pronounForTitle === 'string' && payload.pronounForTitle.trim()
             ? payload.pronounForTitle.trim()
             : null;
+        const phrase = typeof payload.phrase === 'string' && payload.phrase.trim()
+            ? payload.phrase.trim()
+            : null;
         const pronouns = Array.isArray(payload.pronouns) && payload.pronouns.length >= 1
             ? payload.pronouns
             : null;
@@ -161,13 +165,14 @@
             ? payload.customBody
             : '';
         const invitationFormat = typeof payload.invitationFormat === 'string' && payload.invitationFormat.trim()
-            ? payload.invitationFormat.trim().toLowerCase()
+            ? payload.invitationFormat.trim()
             : 'default';
         return {
             token,
             guestName,
             invitationTitle,
             pronounForTitle,
+            phrase,
             pronouns,
             familyCompanionEnabled,
             customBodyEnabled,

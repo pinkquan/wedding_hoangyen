@@ -346,7 +346,6 @@ body.is-locked {
 }
 
 .envelope-divider {
-  margin: 0.1rem 0;
   position: relative;
 }
 
@@ -364,9 +363,8 @@ body.is-locked {
 .envelope-divider span {
   display: inline-block;
   background: var(--color-white);
-  padding: 0 0.1rem;
   color: var(--color-primary);
-  font-size: 0.14rem;
+  font-size: 0.3rem;
   position: relative;
   z-index: 1;
 }

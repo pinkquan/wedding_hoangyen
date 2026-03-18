@@ -570,12 +570,34 @@
       return;
     }
     const personalization = W.getInvitationPersonalization();
-    if (guestNameEl && personalization.invitationTitle) {
+    const inviteTextEl = $(".envelope-invite-text");
+
+    if (guestNameEl && personalization.guestName) {
+      let displayName = personalization.guestName;
+      if (personalization.pronounForTitle) {
+        displayName = personalization.pronounForTitle + " " + displayName;
+      }
+      if (personalization.invitationTitle && personalization.invitationTitle.endsWith("!")) {
+        displayName += "!";
+      }
+      guestNameEl.textContent = displayName;
+
+      if (inviteTextEl) {
+        inviteTextEl.style.display = "";
+        if (personalization.phrase) {
+          inviteTextEl.textContent = personalization.phrase;
+        } else if (personalization.invitationTitle) {
+          let titleStr = personalization.invitationTitle;
+          let suffix = displayName.replace("!", "");
+          let idx = titleStr.toLowerCase().lastIndexOf(suffix.toLowerCase());
+          if (idx > 0) {
+              inviteTextEl.textContent = titleStr.substring(0, idx).trim();
+          }
+        }
+      }
+    } else if (guestNameEl && personalization.invitationTitle) {
       guestNameEl.textContent = personalization.invitationTitle;
-      const inviteTextEl = $(".envelope-invite-text");
       if (inviteTextEl) inviteTextEl.style.display = "none";
-    } else if (guestNameEl && personalization.guestName) {
-      guestNameEl.textContent = personalization.guestName;
     }
     const hostPronounEl = $("#envelope-host-pronoun");
     if (
