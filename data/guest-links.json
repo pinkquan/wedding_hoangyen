@@ -325,6 +325,40 @@
       },
       "created_at": "2026-03-15T17:25:56.702Z",
       "updated_at": "2026-03-15T17:25:56.702Z"
+    },
+
+
+
+    {
+      "token": "quan",
+      "phrase": "Kính mời",
+      "pronoun_for_title": "em",
+      "guest_name": "Quân",
+      "invitation_title": "Kính mời em Quân!",
+      "pronouns": [
+        "em",
+        "Em",
+        "em",
+        "Anh chị",
+        "em",
+        "gia đình",
+        "bọn anh",
+        "em",
+        "",
+        "anh"
+      ],
+      "family_companion_enabled": true,
+      "custom_body_enabled": false,
+      "custom_body": "",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen/",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/quan",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:42:15.642Z",
+      "updated_at": "2026-02-27T15:42:15.642Z"
     }
+
   ]
 }
