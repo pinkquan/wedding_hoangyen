@@ -7,6 +7,8 @@
     var showToast = W.showToast;
     var copyToClipboard = W.copyToClipboard;
     var prefersReducedMotion = W.prefersReducedMotion;
+    const STORY_IMAGE_PRELOAD_ROOT_MARGIN = '1400px 0px';
+    const STORY_IMAGE_INITIAL_PRELOAD_COUNT = 2;
     const STORY_BLOCK_DIRECTIONS = new Set(['up', 'down', 'left', 'right']);
     const STORY_FRAME_CLASSES = {
         none: 'frame-none',
@@ -276,6 +278,41 @@ ${bride}`,
         }
         return strValue;
     }
+    function activateStoryImage(img, priority) {
+        if (!(img instanceof HTMLImageElement)) return;
+        const src = img.dataset.src;
+        if (!src || img.dataset.storyImageLoaded === 'true') return;
+        img.decoding = 'async';
+        img.loading = 'eager';
+        img.fetchPriority = priority || 'low';
+        img.src = src;
+        img.dataset.storyImageLoaded = 'true';
+    }
+    function setupStoryImagePreload(storyGrid) {
+        if (!storyGrid) return;
+        const storyImages = Array.from(storyGrid.querySelectorAll('img[data-story-image="true"]'));
+        if (!storyImages.length) return;
+        storyImages.slice(0, STORY_IMAGE_INITIAL_PRELOAD_COUNT).forEach((img, index) => {
+            activateStoryImage(img, index === 0 ? 'auto' : 'low');
+        });
+        const remainingImages = storyImages.filter((img) => img.dataset.storyImageLoaded !== 'true');
+        if (!remainingImages.length) return;
+        if (typeof IntersectionObserver !== 'function') {
+            remainingImages.forEach((img) => activateStoryImage(img, 'low'));
+            return;
+        }
+        const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                activateStoryImage(entry.target, 'low');
+                imageObserver.unobserve(entry.target);
+            });
+        }, {
+            rootMargin: STORY_IMAGE_PRELOAD_ROOT_MARGIN,
+            threshold: 0.01,
+        });
+        remainingImages.forEach((img) => imageObserver.observe(img));
+    }
     function initStoryLayout() {
         const storySec = $('#story');
         const storyGrid = $('#story-grid');
@@ -309,8 +346,8 @@ ${bride}`,
             if (item.type === 'image' && typeof item.src === 'string' && item.src.trim()) {
                 const img = document.createElement('img');
                 img.className = 'story-item-image';
-                img.loading = 'lazy';
-                img.src = item.src;
+                img.dataset.src = item.src;
+                img.dataset.storyImage = 'true';
                 img.alt = typeof item.alt === 'string' ? item.alt : '';
                 viewport.appendChild(img);
             } else {
@@ -335,6 +372,7 @@ ${bride}`,
         });
         const revealBlocks = renderedBlocks.filter((blockEl, index) => storyConfig.blocks[index]?.effect?.fade_in !== false);
         setupStoryReveal(revealBlocks);
+        setupStoryImagePreload(storyGrid);
         let resizeTicking = false;
         const updateGrid = () => {
             if (resizeTicking) return;
