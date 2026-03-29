@@ -74,7 +74,7 @@
       "date": "Thứ bảy, ngày 11 tháng 04 năm 2026",
       "time": "16:00",
       "location": "Tư Gia Nhà Trai",
-      "address": "Thu Thủy - Đa Phúc - Hà Nội",
+      "address": "số 163 - xóm Ngăn - Thu Thủy - Đa Phúc - Hà Nội",
       "map_url": "https://maps.app.goo.gl/KoiGsKyfGxgCRzdd6"
     },
     "groom_side": {
@@ -83,7 +83,7 @@
       "date": "Thứ bảy, ngày 11 tháng 04 năm 2026",
       "time": "16:00",
       "location": "Tư Gia Nhà Gái",
-      "address": "Đông Xuân - Sóc Sơn - Hà Nội",
+      "address": "Nhà văn hoá thôn Cả - Đông Xuân - Sóc Sơn - Hà Nội",
       "map_url": "https://www.google.com/maps/place/Nh%C3%A0+V%C4%83n+ho%C3%A1+Th%C3%B4n+C%E1%BA%A3/@21.210712,105.8773115,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31350500032aa64b:0x532eadf5a0ace06c!8m2!3d21.210712!4d105.8773115!16s%2Fg%2F11yw994cqn?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     "fontsize": {
@@ -100,7 +100,7 @@
       "title": "Lễ Thành Hôn",
       "time": "Vào Chủ Nhật · 12H00",
       "location": "Tại Tư Gia Nhà Trai",
-      "address": "Thu Thủy - Đa Phúc - Hà Nội",
+      "address": "số 163 - xóm Ngăn - Thu Thủy - Đa Phúc - Hà Nội",
       "map_url": "https://www.google.com/maps/place/Nh%C3%A0+V%C4%83n+ho%C3%A1+Th%C3%B4n+C%E1%BA%A3/@21.210712,105.8773115,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x31350500032aa64b:0x532eadf5a0ace06c!8m2!3d21.210712!4d105.8773115!16s%2Fg%2F11yw994cqn?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
       "map_label": "Chỉ đường"
     },
@@ -108,7 +108,7 @@
       "title": "Lễ Vu Quy",
       "time": "Vào Chủ Nhật · 11H00",
       "location": "Tại Tư Gia Nhà Gái",
-      "address": "Đông Xuân - Sóc Sơn - Hà Nội",
+      "address": "Nhà văn hoá thôn Cả - Đông Xuân - Sóc Sơn - Hà Nội",
       "map_url": "https://maps.app.goo.gl/KoiGsKyfGxgCRzdd6",
       "map_label": "Chỉ đường"
     }
