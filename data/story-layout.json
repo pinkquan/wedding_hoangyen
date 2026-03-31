@@ -23,7 +23,7 @@
         "row_start": 1,
         "item": {
           "type": "image",
-          "src": "./media/photos/c36ee82da3eb66564c68f0aacd8101dd.jpg",
+          "src": "./media/photos-optimized/c36ee82da3eb66564c68f0aacd8101dd.jpg",
           "alt": "Ảnh story trái",
           "frame": "square"
         },
@@ -41,7 +41,7 @@
         "row_start": 5,
         "item": {
           "type": "image",
-          "src": "./media/photos/4d3720f48fb79bd7ba97311bab36a668.jpg",
+          "src": "./media/photos-optimized/4d3720f48fb79bd7ba97311bab36a668.jpg",
           "alt": "Ảnh story phải",
           "frame": "square"
         },
@@ -202,7 +202,7 @@
         "row_start": 16,
         "item": {
           "type": "image",
-          "src": "./media/photos/8cb2781ff2c482a7976575bf7e097f7c.jpg",
+          "src": "./media/photos-optimized/8cb2781ff2c482a7976575bf7e097f7c.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -220,7 +220,7 @@
         "row_start": 17,
         "item": {
           "type": "image",
-          "src": "./media/photos/90cf764f65e677f52cf1d8881ab0f045.jpg",
+          "src": "./media/photos-optimized/90cf764f65e677f52cf1d8881ab0f045.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -276,7 +276,7 @@
         "row_start": 28,
         "item": {
           "type": "image",
-          "src": "./media/photos/c36ee82da3eb66564c68f0aacd8101dd.jpg",
+          "src": "./media/photos-optimized/c36ee82da3eb66564c68f0aacd8101dd.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -294,7 +294,7 @@
         "row_start": 46,
         "item": {
           "type": "image",
-          "src": "./media/photos/e727505bd918a0d43ea467fb3bee0761.jpg",
+          "src": "./media/photos-optimized/e727505bd918a0d43ea467fb3bee0761.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -370,7 +370,7 @@
         "row_start": 64,
         "item": {
           "type": "image",
-          "src": "./media/photos/893360ea7cc2c68e941e0f7cdf41b1e8.jpg",
+          "src": "./media/photos-optimized/893360ea7cc2c68e941e0f7cdf41b1e8.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -388,7 +388,7 @@
         "row_start": 66,
         "item": {
           "type": "image",
-          "src": "./media/photos/3d821599640280e48529728545400d03.jpg",
+          "src": "./media/photos-optimized/3d821599640280e48529728545400d03.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -406,7 +406,7 @@
         "row_start": 72,
         "item": {
           "type": "image",
-          "src": "./media/photos/2b3d2685799cd8bc268690b2ccead1c7.jpg",
+          "src": "./media/photos-optimized/2b3d2685799cd8bc268690b2ccead1c7.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -424,7 +424,7 @@
         "row_start": 74,
         "item": {
           "type": "image",
-          "src": "./media/photos/1b69d1b5f166bb17ebb48afb5a0f9d2e.jpg",
+          "src": "./media/photos-optimized/1b69d1b5f166bb17ebb48afb5a0f9d2e.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -478,7 +478,7 @@
         "row_start": 84,
         "item": {
           "type": "image",
-          "src": "./media/photos/51dc61371edbe53e805a80ac34617efa.jpg",
+          "src": "./media/photos-optimized/51dc61371edbe53e805a80ac34617efa.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -496,7 +496,7 @@
         "row_start": 84,
         "item": {
           "type": "image",
-          "src": "./media/photos/73fd490e4ca139423c4d87e3017bbb07.jpg",
+          "src": "./media/photos-optimized/73fd490e4ca139423c4d87e3017bbb07.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.2rem"
         },
@@ -514,7 +514,7 @@
         "row_start": 91,
         "item": {
           "type": "image",
-          "src": "./media/photos/21d8b5bc03a0973b274fe508560cbb94.jpg",
+          "src": "./media/photos-optimized/21d8b5bc03a0973b274fe508560cbb94.jpg",
           "frame": "rounded-rect",
           "border_radius": "0.1rem"
         },

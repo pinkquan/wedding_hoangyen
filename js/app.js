@@ -71,7 +71,7 @@
     }
     function isSafeMediaSrc(src) {
         if (typeof src !== 'string') return false;
-        return /^\.?\/media\/(photos|music)\/[a-zA-Z0-9_-]+\.[a-zA-Z0-9]+$/.test(src)
+        return /^\.?\/media\/(photos|photos-optimized|music)\/[a-zA-Z0-9_-]+\.[a-zA-Z0-9]+$/.test(src)
             || /^\.?\/assets\//.test(src);
     }
     W.$ = $;
