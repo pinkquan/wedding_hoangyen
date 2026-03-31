@@ -24,11 +24,11 @@
       "updated_at": "2026-02-27T15:26:27.682Z"
     },
     {
-      "token": "thanhnn15",
+      "token": "du",
       "phrase": "Kính mời",
-      "pronoun_for_title": "anh",
-      "guest_name": "Thành",
-      "invitation_title": "Kính mời anh Thành!",
+      "pronoun_for_title": "bạn",
+      "guest_name": "Dự",
+      "invitation_title": "Kính mời bạn Dự!",
       "pronouns": [
         "anh",
         "Anh",
@@ -43,10 +43,10 @@
       ],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
-      "custom_body": "Gửi đến anh tấm thiệp cưới đầy yêu thương.\nĐối với chúng em, anh là vị giám đốc đáng kính và là một bầu trời kiến thức và kinh nghiệm.\nMong anh cùng toàn thể anh em Radar sẽ đến chung vui.\nCùng chứng kiến khoảnh khắc hạnh phúc nhất của bọn em.\nHy vọng anh sẽ là người chứng kiến khoảnh khắc quan trọng nhất trong cuộc đời hai đứa!",
+      "custom_body": "Gửi đến ông tấm thiệp cưới đầy yêu thương \nMột người anh em nghiện sống tình cảm \nMong ông cùng người thương đến chung vui và chứng kiến khoảnh khắc hạnh phúc, ý nghĩa nhất trong ngày trọng đại của hai vợ chồng tôi \nThân !!!",
       "qr": {
         "base_url": "https://pinkquan.github.io/wedding_hoangyen",
-        "target_url": "https://pinkquan.github.io/wedding_hoangyen/thanhnn15",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/du",
         "image_path": "",
         "updated_at": ""
       },
