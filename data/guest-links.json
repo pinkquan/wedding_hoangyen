@@ -28,15 +28,8 @@
       "guest_name": "Quân",
       "invitation_title": "Thân mời em Quân!",
       "pronouns": [
-        "em",
         "Em",
-        "em",
-        "bọn anh",
-        "em",
-        "gia đình",
-        "bọn anh",
-        "em",
-        "anh chị"
+        "anh"
       ],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
