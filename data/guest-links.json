@@ -8,7 +8,10 @@
       "pronoun_for_title": "bạn",
       "guest_name": "Dự",
       "invitation_title": "Kính mời bạn Dự!",
-      "pronouns": [],
+      "pronouns": [
+        "bạn",
+        "tôi"
+      ],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
       "custom_body": "Gửi đến ông tấm thiệp cưới đầy yêu thương \nMột người anh em nghiện sống tình cảm \nMong ông cùng người thương đến chung vui và chứng kiến khoảnh khắc hạnh phúc, ý nghĩa nhất trong ngày trọng đại của hai vợ chồng tôi \nThân !!!",
