@@ -3,18 +3,6 @@
   "updated_at": "2026-02-27T15:26:27.682Z",
   "entries": [
     {
-      "token": "thanhnn15",
-      "custom_body": "Gửi đến em tấm thiệp cưới đầy yêu thương.\nĐối với anh, em là người đặc biệt.\nHy vọng em sẽ là người chứng kiến khoảnh khắc quan trọng nhất trong cuộc đời anh chị!",
-      "qr": {
-        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
-        "target_url": "https://pinkquan.github.io/wedding_hoangyen/quan",
-        "image_path": "",
-        "updated_at": ""
-      },
-      "created_at": "2026-02-27T15:27:35.774Z",
-      "updated_at": "2026-02-27T15:27:35.774Z"
-    },
-    {
       "token": "du",
       "phrase": "Kính mời",
       "pronoun_for_title": "bạn",
@@ -46,6 +34,26 @@
       "qr": {
         "base_url": "https://pinkquan.github.io/wedding_hoangyen",
         "target_url": "https://pinkquan.github.io/wedding_hoangyen/huy",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+     {
+      "token": "quan",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "em",
+      "guest_name": "Quân",
+      "invitation_title": "Thân mời em Quân!",
+      "pronouns": [
+      ],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi đến em tấm thiệp cưới đầy yêu thương.\nĐối với anh, em là người đặc biệt.\nHy vọng em sẽ là người chứng kiến khoảnh khắc quan trọng nhất trong cuộc đời anh chị!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/quan",
         "image_path": "",
         "updated_at": ""
       },
