@@ -101,7 +101,7 @@
         const pathParts = window.location.pathname.split('/').filter(Boolean);
         const pathToken = pathParts.length > 0 ? pathParts[pathParts.length - 1].toLowerCase() : '';
         if (!pathToken || pathToken.includes('.')) return;
-        if (!/^[a-z0-9-_]{4,64}$/.test(pathToken)) return;
+        if (!/^[a-z0-9-_]{1,64}$/.test(pathToken)) return;
         try {
             const res = await fetch('./data/guest-links.json', { cache: 'no-store' });
             if (!res.ok) return;
