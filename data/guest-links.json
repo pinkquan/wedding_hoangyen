@@ -2,15 +2,13 @@
   "version": 1,
   "updated_at": "2026-02-27T15:26:27.682Z",
   "entries": [
-
-     {
+    {
       "token": "quan",
       "phrase": "Thân mời",
       "pronoun_for_title": "em",
       "guest_name": "Quân",
       "invitation_title": "Thân mời em Quân!",
-      "pronouns": [
-      ],
+      "pronouns": [],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
       "custom_body": "Gửi đến em tấm thiệp cưới đầy yêu thương.\nĐối với anh, em là người đặc biệt.\nHy vọng em sẽ là người chứng kiến khoảnh khắc quan trọng nhất trong cuộc đời anh chị!",
@@ -29,8 +27,7 @@
       "pronoun_for_title": "Bạn",
       "guest_name": "Dự",
       "invitation_title": "Thân mời bạn Dự!",
-      "pronouns": [
-      ],
+      "pronouns": [],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
       "custom_body": "Gửi đến ông tấm thiệp cưới đầy yêu thương \nMột người anh em nghiện sống tình cảm \nMong ông cùng người thương đến chung vui và chứng kiến khoảnh khắc hạnh phúc, ý nghĩa nhất trong ngày trọng đại của hai vợ chồng tôi \nHẹn gặp lại ông nhé !!!",
@@ -43,20 +40,59 @@
       "created_at": "2026-02-27T15:27:35.774Z",
       "updated_at": "2026-02-27T15:27:35.774Z"
     },
-        {
+    {
       "token": "linh",
       "phrase": "Thân mời",
       "pronoun_for_title": "Bạn",
       "guest_name": "Linh",
       "invitation_title": "Thân mời bạn Linh!",
-      "pronouns": [
-      ],
+      "pronouns": [],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
       "custom_body": "Gửi đến ông tấm thiệp cưới đầy yêu thương \nMột người anh em nghiện sống tình cảm \nMong ông cùng người thương đến chung vui và chứng kiến khoảnh khắc hạnh phúc, ý nghĩa nhất trong ngày trọng đại của hai vợ chồng tôi \nHẹn gặp lại ông nhé !!!",
       "qr": {
         "base_url": "https://pinkquan.github.io/wedding_hoangyen",
         "target_url": "https://pinkquan.github.io/wedding_hoangyen/linh",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "truong",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Bạn",
+      "guest_name": "Trường",
+      "invitation_title": "Thân mời bạn Trường!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi đến ông tấm thiệp cưới đầy yêu thương \nMột người anh em nghiện sống tình cảm \nMong ông cùng người thương đến chung vui và chứng kiến khoảnh khắc hạnh phúc, ý nghĩa nhất trong ngày trọng đại của hai vợ chồng tôi \nHẹn gặp lại ông nhé !!!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/truong",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+
+
+    {
+      "token": "uyen",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Bạn",
+      "guest_name": "Vi Uyên",
+      "invitation_title": "Thân mời bạn iu Vi Uyên và người thương!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Chúng mình gửi đến bạn tấm thiệp cưới với tất cả yêu thương. \nSự hiện diện của bạn trong ngày trọng đại này là niềm vui và hạnh phúc lớn đối với chúng mình. \nXin chân thành cảm ơn bạn vì những tình cảm và lời chúc tốt đẹp đã dành cho chúng mình. \nHẹn gặp lại bạn nhé !!!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/uyen",
         "image_path": "",
         "updated_at": ""
       },
