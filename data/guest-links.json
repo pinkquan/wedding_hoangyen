@@ -1508,11 +1508,11 @@
       "updated_at": "2026-02-27T15:27:35.774Z"
     },
     {
-      "token": "nhung",
+      "token": "chinhung",
       "phrase": "Thân mời",
       "pronoun_for_title": "Chị",
       "guest_name": "Nhung",
-      "invitation_title": "Thân mời bạn Bảo và vợ!",
+      "invitation_title": "Thân mời chị Nhung và chồng chị!",
       "pronouns": [],
       "family_companion_enabled": true,
       "custom_body_enabled": true,
@@ -1525,8 +1525,121 @@
       },
       "created_at": "2026-02-27T15:27:35.774Z",
       "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "chiphuong",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Chị",
+      "guest_name": "Phượng",
+      "invitation_title": "Thân mời chị Phượng và người thương!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi tới bà chị tấm thiệp cưới đầy yêu thương\nCùng nhau chơi từ thời còn đóng bỉm, đi phá làng phá xóm cùng nhau, cuối cùng thì thằng em này cũng đã bị “lên thớt” roài \nNay em trân trọng mời chị và người thương đến tham dự, vừa là để chung vui, vừa là để tận mắt chứng kiến khoảnh khắc thằng em chính thức “hết thời tự do”\nHẹn gặp anh chị nhé!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/chiphuong",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "anhmanh",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Anh",
+      "guest_name": "Mạnh",
+      "invitation_title": "Thân mời anh Mạnh và người thương!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi tới ông anh tấm thiệp cưới đầy yêu thương\nCùng nhau chơi từ thời còn đóng bỉm, đi phá làng phá xóm cùng nhau, cuối cùng thì thằng em này cũng đã bị “lên thớt” roài \nNay em trân trọng mời anh và người thương đến tham dự, vừa là để chung vui, vừa là để tận mắt chứng kiến khoảnh khắc thằng em chính thức “hết thời tự do”\nHẹn gặp anh chị nhé!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/anhmanh",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "emdiep",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Em",
+      "guest_name": "Điệp",
+      "invitation_title": "Thân mời em Điệp và người thương!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi tới ông em tấm thiệp cưới đầy yêu thương\nCùng nhau chơi từ thời còn đóng bỉm, đi phá làng phá xóm cùng nhau, cuối cùng thì thằng anh này cũng đã bị “lên thớt” roài \nNay anh trân trọng mời em và người thương đến tham dự, vừa là để chung vui, vừa là để tận mắt chứng kiến khoảnh khắc thằng anh chính thức “hết thời tự do”\nHẹn gặp 2 em nhé!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/emdiep",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "long",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Bạn",
+      "guest_name": "Long",
+      "invitation_title": "Thân mời bạn Long và người thương!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi tới bạn tấm thiệp cưới đầy yêu thương\nCùng nhau chơi từ thời còn đóng bỉm, đi phá làng phá xóm cùng nhau, cuối cùng thì anh em cũng đã bị “lên thớt” roài \nNay anh em trân trọng mời bạn và người thương đến tham dự, vừa là để chung vui, vừa là để tận mắt chứng kiến khoảnh khắc anh em chính thức “hết thời tự do”\nHẹn gặp bạn nhé!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/long",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "anhthanhnn",
+      "phrase": "Kính mời",
+      "pronoun_for_title": "Anh",
+      "guest_name": "Thành",
+      "invitation_title": "Kính mời anh Thành!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi đến anh tấm thiệp cưới đầy yêu thương.\nĐối với chúng em, anh là vị giám đốc đáng kính và là một bầu trời kiến thức và kinh nghiệm.\nRất mong anh cùng toàn thể anh em Radar sẽ đến chung vui và cùng chứng kiến khoảnh khắc hạnh phúc nhất trong ngày trọng đại của hai vợ chồng em.",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/anhthanhnn",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
+      "token": "anhthanhnn",
+      "phrase": "Kính mời",
+      "pronoun_for_title": "Anh",
+      "guest_name": "Thành",
+      "invitation_title": "Kính mời anh Thành!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi đến anh tấm thiệp cưới đầy yêu thương.\nĐối với chúng em, anh là vị giám đốc đáng kính và là một bầu trời kiến thức và kinh nghiệm.\nRất mong anh cùng toàn thể anh em Radar sẽ đến chung vui và cùng chứng kiến khoảnh khắc hạnh phúc nhất trong ngày trọng đại của hai vợ chồng em.",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/anhthanhnn",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
     }
-
 
   ]
 }
