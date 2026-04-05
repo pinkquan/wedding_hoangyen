@@ -783,6 +783,25 @@
       "created_at": "2026-02-27T15:27:35.774Z",
       "updated_at": "2026-02-27T15:27:35.774Z"
     },
+    {
+      "token": "banquynh",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Bạn",
+      "guest_name": "Quỳnh",
+      "invitation_title": "Thân mời bạn Quỳnh và người thương!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Chúng mình gửi đến bạn tấm thiệp cưới với tất cả yêu thương. \nSự hiện diện của bạn trong ngày trọng đại này là niềm vui và hạnh phúc lớn đối với chúng mình. \nXin chân thành cảm ơn bạn vì những tình cảm và lời chúc tốt đẹp đã dành cho chúng mình. \nHẹn gặp lại bạn nhé !!!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/banquynh",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
     
     {
       "token": "chithu",
