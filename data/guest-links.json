@@ -1758,6 +1758,25 @@
       "updated_at": "2026-02-27T15:27:35.774Z"
     },
     {
+      "token": "anhduclt",
+      "phrase": "Kính mời",
+      "pronoun_for_title": "Anh",
+      "guest_name": "Đức",
+      "invitation_title": "Kính mời anh Đức!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Chúng em xin gửi đến anh tấm thiệp cưới đầy yêu thương ạ.\nSự hiện diện của anh trong ngày trọng đại này là niềm vui và hạnh phúc lớn đối với chúng em.\nRất mong anh cùng toàn thể anh em Radar sẽ đến chung vui và cùng chứng kiến khoảnh khắc hạnh phúc nhất trong ngày trọng đại của hai vợ chồng em ạ. \nHẹn gặp lại anh ạ !!!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/anhduclt",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
       "token": "anhthanhnn",
       "phrase": "Kính mời",
       "pronoun_for_title": "Anh",
