@@ -231,6 +231,25 @@
       "updated_at": "2026-02-27T15:27:35.774Z"
     },
     {
+      "token": "minhbeu",
+      "phrase": "Thân mời",
+      "pronoun_for_title": "Bạn",
+      "guest_name": "Minh",
+      "invitation_title": "Thân mời bạn Minh!",
+      "pronouns": [],
+      "family_companion_enabled": true,
+      "custom_body_enabled": true,
+      "custom_body": "Gửi đến ông tấm thiệp cưới đầy yêu thương \nMột người anh em đã đồng hành cùng tôi trong những năm tháng đại học \nMong ông cùng người thương đến chung vui và chứng kiến khoảnh khắc hạnh phúc, ý nghĩa nhất trong ngày trọng đại của hai vợ chồng tôi nha\nHẹn gặp lại ông nhé !!!",
+      "qr": {
+        "base_url": "https://pinkquan.github.io/wedding_hoangyen",
+        "target_url": "https://pinkquan.github.io/wedding_hoangyen/minhbeu",
+        "image_path": "",
+        "updated_at": ""
+      },
+      "created_at": "2026-02-27T15:27:35.774Z",
+      "updated_at": "2026-02-27T15:27:35.774Z"
+    },
+    {
       "token": "dung",
       "phrase": "Thân mời",
       "pronoun_for_title": "Bạn",
